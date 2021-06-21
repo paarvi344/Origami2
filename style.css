@@ -1,0 +1,44 @@
+h1 {
+    color: rgb(0, 89, 255);
+    padding-left:30px
+}
+
+.header * {
+    border: solid;
+  
+} 
+
+.header{
+    background-color: rgb(0, 224, 253);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu{
+    margin-right: 50px;
+}
+.menu a{
+    margin-right: 15px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
